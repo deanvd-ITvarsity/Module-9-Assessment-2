@@ -1,0 +1,67 @@
+/* Styling The Body */
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+
+/* Styling THe Local Time Display */
+
+#local {
+    width: 100%;
+    background-color: #555555;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+
+/* Styling The Table */
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/** Styling The Table Columns **/
+
+#cities td {
+    border: solid 1px #dedede;
+    padding: 8px;
+}
+
+#cities td a {
+    color: red;
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
+
+
+/** Styling The Table rows **/
+
+#cities tr:nth-child(even) {
+    background-color: #9bf0fc;
+}
+
+#cities tr:nth-child(even):hover {
+    background-color: #555555;
+    color: white;
+}
+
+#cities tr:nth-child(odd):hover {
+    background-color: #555555;
+    color: white;
+}
